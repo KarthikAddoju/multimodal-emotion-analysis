@@ -63,27 +63,7 @@ The system:
 
 ---
 
-## 📁 Project Structure
 
-multimodal-emotion-analysis/
-│── app.py
-│── requirements.txt
-│── README.md
-│
-├── models/
-│ ├── audio_emotion.py
-│ └── face_emotion.py
-│
-├── utils/
-│ ├── audio_utils.py
-│ ├── video_utils.py
-│ └── fusion.py
-│
-├── data
-│ └── sample_audio.wav
-│
-└── notebooks/
-└── experiments.ipynb
 
 
 
