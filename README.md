@@ -79,7 +79,7 @@ multimodal-emotion-analysis/
 │ ├── video_utils.py
 │ └── fusion.py
 │
-├── data/
+├── data
 │ └── sample_audio.wav
 │
 └── notebooks/
