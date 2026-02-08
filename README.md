@@ -38,16 +38,6 @@ The system:
 
 ---
 
-## 🧠 Architecture
-Audio Input ──▶ Audio Emotion Model ─┐
-├──▶ Late Fusion ──▶ Final Emotion
-Video Input ──▶ Face Emotion Model ──┘
-
-
-
-
----
-
 ## 🛠️ Tech Stack
 
 - **Programming Language:** Python  
