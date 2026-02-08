@@ -39,4 +39,61 @@ The system:
 ---
 
 ## 🧠 Architecture
+Audio Input ──▶ Audio Emotion Model ─┐
+├──▶ Late Fusion ──▶ Final Emotion
+Video Input ──▶ Face Emotion Model ──┘
+
+
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Programming Language:** Python  
+- **Deep Learning:** PyTorch, Hugging Face Transformers  
+- **Audio Processing:** Librosa, Torchaudio  
+- **Computer Vision:** OpenCV  
+- **Utilities:** NumPy, SciPy  
+- **Hardware Support:** CPU / CUDA (GPU if available)
+
+---
+
+## 📊 Models & Datasets
+
+### Audio Emotion Recognition
+- **Model:** `superb/wav2vec2-base-superb-er`
+- **Datasets Used:**
+  - TESS (Toronto Emotional Speech Set)
+  - CREMA-D
+
+### Facial Emotion Recognition
+- Face detection using Haar Cascades
+- Emotion inference module designed to be easily replaceable with CNN-based FER models
+
+---
+
+## 📁 Project Structure
+
+multimodal-emotion-analysis/
+│── app.py
+│── requirements.txt
+│── README.md
+│
+├── models/
+│ ├── audio_emotion.py
+│ └── face_emotion.py
+│
+├── utils/
+│ ├── audio_utils.py
+│ ├── video_utils.py
+│ └── fusion.py
+│
+├── data/
+│ └── sample_audio.wav
+│
+└── notebooks/
+└── experiments.ipynb
+
+
 
