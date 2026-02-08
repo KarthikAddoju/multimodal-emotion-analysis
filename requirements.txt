@@ -1,0 +1,9 @@
+torch
+torchaudio
+transformers
+opencv-python
+numpy
+scipy
+librosa
+sounddevice
+mediapipe
